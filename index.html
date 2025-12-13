@@ -1,86 +1,81 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Detyra e Studentit 1 – Home Page</title>
-    <link rel="stylesheet" href="style.css">
+    <title>News Today</title>
+   <link rel="stylesheet" href="style.css">
+       
 </head>
-
 <body>
-    <div class="page" role="document">
 
-        <header class="site-header">
-      <a class="brand" href="#">
-        <div class="logo">S1</div>
-        <div>
-          <span class="site-title">Detyra Student 1</span>
-          <span class="site-sub">Home Page — Lajmet</span>
+<header>
+    <h1>News Today</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About us</a>
+        <a href="#">Contact us</a>
+       
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Main Headline of the Day</h2>
+    <p>Short description of the leading story that draws readers into the most important news happening right now.</p>
+</section>
+
+<div class="container">
+    <!-- ARTICLE GRID -->
+    <div class="articles">
+        <div class="card">
+            <img src="https://picsum.photos/400/250?random=2" alt="">
+            <div class="info">
+                <h3>Breaking News Headline</h3>
+                <p>Short summary of the article to attract the reader’s attention.</p>
+            </div>
         </div>
-      </a>
 
-      <nav class="main-nav">
-        <a href="#" aria-current="page">Home</a>
-        <a href="#">Product</a>
-        <a href="#">About Us</a>
-      </nav>
-    </header>
+        <div class="card">
+            <img src="https://picsum.photos/400/250?random=3" alt="">
+            <div class="info">
+                <h3>Major World Event</h3>
+                <p>Another engaging description introducing the article.</p>
+            </div>
+        </div>
 
-    <main>
-      <section class="news-list">
+        <div class="card">
+            <img src="https://picsum.photos/400/250?random=4" alt="">
+            <div class="info">
+                <h3>Technology Update</h3>
+                <p>Latest updates on tech news, innovations, and trends.</p>
+            </div>
+        </div>
 
-        <!-- Lajmi 1 -->
-        <article class="card">
-          <img class="thumb" src="https://via.placeholder.com/800x450?text=Lajmi+1" alt="Foto për lajmin 1">
-          <div class="card-body">
-            <h3>Titulli i parë</h3>
-            <p>Përshkrim i shkurtër i lajmit të parë.</p>
-            <time datetime="2025-11-15">15 Nëntor 2025</time>
-          </div>
-        </article>
-
-        <!-- Lajmi 2 -->
-        <article class="card">
-          <img class="thumb" src="https://via.placeholder.com/800x450?text=Lajmi+2" alt="Foto për lajmin 2">
-          <div class="card-body">
-            <h3>Përparim i ri në teknologji</h3>
-            <p>Përshkrim i shkurtër i lajmit të dytë.</p>
-            <time datetime="2025-11-10">10 Nëntor 2025</time>
-          </div>
-        </article>
-
-        <!-- Lajmi 3 -->
-        <article class="card">
-          <img class="thumb" src="https://via.placeholder.com/800x450?text=Lajmi+3" alt="Foto për lajmin 3">
-          <div class="card-body">
-            <h3>Fitore historike</h3>
-            <p>Përshkrim i shkurtër i lajmit të tretë.</p>
-            <time datetime="2025-11-08">8 Nëntor 2025</time>
-          </div>
-        </article>
-
-        <!-- Lajmi 4 -->
-        <article class="card">
-          <img class="thumb" src="https://via.placeholder.com/800x450?text=Lajmi+4" alt="Foto për lajmin 4">
-          <div class="card-body">
-            <h3>Ngjarje kulturore lokale</h3>
-            <p>Përshkrim i ngjarjes kulturore.</p>
-            <time datetime="2025-11-02">2 Nëntor 2025</time>
-          </div>
-        </article>
-
-        <footer class="site-footer">
-      &copy; 2025 Detyra Student 1 — Të gjitha të drejtat e rezervuara.
-    </footer>
-
-      </section>
-    </main>
-
-
-
-
+        <div class="card">
+            <img src="https://picsum.photos/400/250?random=5" alt="">
+            <div class="info">
+                <h3>Sports Highlights</h3>
+                <p>Highlights from the world of sports happening today.</p>
+            </div>
+        </div>
     </div>
-</body>
 
+    <!-- SIDEBAR -->
+    <div class="sidebar">
+        <h3>Trending Now</h3>
+        <ul>
+            <li>🔥 Story 1: Big event catching attention</li>
+            <li>🔥 Story 2: Major update trending worldwide</li>
+            <li>🔥 Story 3: Political story rising fast</li>
+            <li>🔥 Story 4: Social media breakout topic</li>
+        </ul>
+    </div>
+</div>
+
+<footer>
+    &copy; 2025 News Today | All Rights Reserved
+</footer>
+
+</body>
 </html>
